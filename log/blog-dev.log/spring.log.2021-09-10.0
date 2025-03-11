@@ -1,0 +1,17 @@
+2021-09-10 00:00:00.427  INFO 12352 --- [http-nio-8080-exec-4] com.zgz.aspect.LogAspect                 : Result : blog
+2021-09-10 00:00:00.431  INFO 12352 --- [http-nio-8080-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-10 00:00:00.834  INFO 12352 --- [http-nio-8080-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-10 00:00:00.893  INFO 12352 --- [http-nio-8080-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/27', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[27, {}]}
+2021-09-10 00:00:00.923  INFO 12352 --- [http-nio-8080-exec-5] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-09-10 00:00:00.923  INFO 12352 --- [http-nio-8080-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-10 00:00:00.928  INFO 12352 --- [http-nio-8080-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-10 00:00:00.928  INFO 12352 --- [http-nio-8080-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-10 00:00:03.003  INFO 12352 --- [http-nio-8080-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[27, {}]}
+2021-09-10 00:00:03.104  INFO 12352 --- [http-nio-8080-exec-10] com.zgz.aspect.LogAspect                 : Result : blog
+2021-09-10 00:00:03.104  INFO 12352 --- [http-nio-8080-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-10 00:00:03.443  INFO 12352 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-10 00:00:03.448  INFO 12352 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-10 00:00:03.449  INFO 12352 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-10 00:00:03.508  INFO 12352 --- [http-nio-8080-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/comments/27', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[27, {}]}
+2021-09-10 00:00:03.520  INFO 12352 --- [http-nio-8080-exec-7] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-09-10 00:00:03.520  INFO 12352 --- [http-nio-8080-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------

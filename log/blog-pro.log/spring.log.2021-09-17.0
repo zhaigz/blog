@@ -1,0 +1,64 @@
+2021-09-17 15:27:50.347  INFO 5908 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Mr_Zhai with PID 5908 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-17 15:27:50.358  INFO 5908 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-09-17 15:27:58.940  WARN 5908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 15:28:00.219  INFO 5908 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 10.989 seconds (JVM running for 13.308)
+2021-09-17 15:28:56.381  INFO 13548 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Mr_Zhai with PID 13548 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-17 15:28:56.384  INFO 13548 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-09-17 15:29:04.410  WARN 13548 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 15:29:05.788  INFO 13548 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 10.632 seconds (JVM running for 13.258)
+2021-09-17 15:29:12.582  INFO 13972 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Mr_Zhai with PID 13972 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-17 15:29:12.586  INFO 13972 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-09-17 15:29:19.171  WARN 13972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 15:29:20.297  INFO 13972 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 8.424 seconds (JVM running for 9.732)
+2021-09-17 15:30:28.533  INFO 16816 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Mr_Zhai with PID 16816 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-17 15:30:28.535  INFO 16816 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-09-17 15:30:35.516  WARN 16816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 15:30:36.712  INFO 16816 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 8.911 seconds (JVM running for 10.265)
+2021-09-17 15:30:41.354  INFO 10836 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Mr_Zhai with PID 10836 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-17 15:30:41.357  INFO 10836 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-09-17 15:30:46.719  WARN 10836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-17 15:30:47.764  INFO 10836 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 7.055 seconds (JVM running for 8.483)
+2021-09-17 15:31:28.416  INFO 10836 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/index.html', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-17 15:31:29.208  WARN 10836 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-09-17 15:31:29.297  WARN 10836 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-09-17 15:31:29.366  INFO 10836 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-09-17 15:31:29.367  INFO 10836 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:31.214  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:31:31.229  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:31:31.229  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:38.948  INFO 10836 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-17 15:31:38.987  INFO 10836 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : types
+2021-09-17 15:31:38.987  INFO 10836 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:39.579  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:31:39.595  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:31:39.595  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:40.563  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-17 15:31:40.600  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : index
+2021-09-17 15:31:40.600  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:41.239  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:31:41.249  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:31:41.250  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:44.282  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/28', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[28, {}]}
+2021-09-17 15:31:44.686  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog
+2021-09-17 15:31:44.687  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:46.391  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:31:46.397  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:31:46.397  INFO 10836 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:57.379  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2021-09-17 15:31:57.570  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : archives
+2021-09-17 15:31:57.571  INFO 10836 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:31:58.649  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:31:58.667  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:31:58.668  INFO 10836 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:32:04.221  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.AboutShowController.about', args=[]}
+2021-09-17 15:32:04.225  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : about
+2021-09-17 15:32:04.227  INFO 10836 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:32:05.187  INFO 10836 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:32:05.209  INFO 10836 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:32:05.209  INFO 10836 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:32:08.543  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2021-09-17 15:32:08.583  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : archives
+2021-09-17 15:32:08.583  INFO 10836 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-17 15:32:09.373  INFO 10836 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-09-17 15:32:09.389  INFO 10836 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-09-17 15:32:09.391  INFO 10836 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------

@@ -1,0 +1,433 @@
+2021-12-09 08:11:36.666  INFO 15964 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Zgz with PID 15964 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:11:36.696  INFO 15964 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-12-09 08:11:49.513  WARN 15964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:11:50.971  INFO 15964 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 15.547 seconds (JVM running for 21.707)
+2021-12-09 08:12:09.105  INFO 9272 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Zgz with PID 9272 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:12:09.109  INFO 9272 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-12-09 08:12:14.352  WARN 9272 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:12:15.261  INFO 9272 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 8.691 seconds (JVM running for 12.285)
+2021-12-09 08:12:32.783  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:12:32.942  WARN 9272 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:12:32.993  WARN 9272 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:12:33.027  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:12:33.028  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:12:35.083  INFO 9272 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:12:35.096  INFO 9272 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:12:35.096  INFO 9272 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:13:00.849  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:13:00.888  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:13:00.888  INFO 9272 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:13:01.722  INFO 9272 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:13:01.736  INFO 9272 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:13:01.737  INFO 9272 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:14:27.363  INFO 17540 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Zgz with PID 17540 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:14:27.363  INFO 17540 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-12-09 08:14:34.402  WARN 17540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:14:35.810  INFO 17540 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 9.018 seconds (JVM running for 10.444)
+2021-12-09 08:14:45.098  INFO 4304 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Zgz with PID 4304 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:14:45.101  INFO 4304 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-12-09 08:14:50.128  WARN 4304 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:14:51.205  INFO 4304 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 7.269 seconds (JVM running for 9.3)
+2021-12-09 08:15:11.071  INFO 4304 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:15:11.200  WARN 4304 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:15:11.218  WARN 4304 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:15:11.238  INFO 4304 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:15:11.238  INFO 4304 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:15:12.376  INFO 4304 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:15:12.389  INFO 4304 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:15:12.389  INFO 4304 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:49:16.282  INFO 18472 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Zgz with PID 18472 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:49:16.315  INFO 18472 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-12-09 08:49:28.389  WARN 18472 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:49:29.883  INFO 18472 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 14.688 seconds (JVM running for 19.428)
+2021-12-09 08:49:40.112  INFO 3008 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Zgz with PID 3008 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 08:49:40.115  INFO 3008 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-12-09 08:49:45.346  WARN 3008 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 08:49:46.308  INFO 3008 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 6.798 seconds (JVM running for 9.186)
+2021-12-09 08:49:54.156  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:49:54.329  WARN 3008 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:49:54.346  WARN 3008 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 08:49:54.366  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:49:54.366  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:49:55.686  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:49:55.701  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:49:55.702  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:50:19.915  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/52', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[52, {}]}
+2021-12-09 08:50:20.179  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:50:20.180  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:50:21.271  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:50:21.281  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:50:21.281  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:11.185  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:51:11.426  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:51:11.426  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:12.316  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:51:12.327  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:51:12.327  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:27.479  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/search', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: id: DESC], 软件工程, {}]}
+2021-12-09 08:51:27.490  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : search
+2021-12-09 08:51:27.491  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:28.100  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:51:28.112  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:51:28.113  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:51.935  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:51:51.955  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : types
+2021-12-09 08:51:51.956  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:51:52.609  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:51:52.619  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:51:52.619  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:02.874  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/8', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[8, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:52:02.888  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : types
+2021-12-09 08:52:02.889  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:03.503  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:52:03.513  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:52:03.513  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:09.508  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:52:09.539  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : tags
+2021-12-09 08:52:09.539  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:10.168  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:52:10.177  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:52:10.177  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:17.058  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2021-12-09 08:52:17.114  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : archives
+2021-12-09 08:52:17.115  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:17.667  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:52:17.676  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:52:17.676  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:29.006  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.AboutShowController.about', args=[]}
+2021-12-09 08:52:29.009  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : about
+2021-12-09 08:52:29.009  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:29.633  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:52:29.642  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:52:29.642  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:37.333  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:52:37.356  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:52:37.356  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:52:38.059  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:52:38.067  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:52:38.067  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:53:32.679  WARN 3008 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [640] milliseconds.
+2021-12-09 08:54:58.578  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/52', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[52, {}]}
+2021-12-09 08:54:58.674  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:54:58.674  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:54:59.801  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:54:59.809  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:54:59.809  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:55:33.802  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:55:33.827  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:55:33.827  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:55:34.503  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:55:34.512  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:55:34.512  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:55:46.254  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[69, {}]}
+2021-12-09 08:55:46.347  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:55:46.350  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:55:47.351  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:55:47.360  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:55:47.360  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:56:34.297  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:56:34.313  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:56:34.313  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:56:34.986  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:56:34.994  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:56:34.995  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:56:35.576  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/69', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[69, {}]}
+2021-12-09 08:56:35.653  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:56:35.654  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:56:36.485  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:56:36.494  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:56:36.495  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:21.642  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 08:58:21.662  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 08:58:21.662  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:22.552  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:58:22.559  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:58:22.560  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:23.478  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[70, {}]}
+2021-12-09 08:58:23.584  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:58:23.584  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:24.468  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:58:24.475  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:58:24.475  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:24.766  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 08:58:24.906  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 08:58:24.906  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:52.396  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/52', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[52, {}]}
+2021-12-09 08:58:52.609  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:58:52.610  INFO 3008 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:53.618  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:58:53.674  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:58:53.675  INFO 3008 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:57.385  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[70, {}]}
+2021-12-09 08:58:57.460  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:58:57.460  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:58.343  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:58:58.350  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:58:58.350  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:58:58.580  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 08:58:58.584  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 08:58:58.584  INFO 3008 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:18.401  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.post', args=[Comment{id=null, nickname='黑灰白格', email='1483663612@qq.com', content='总结的挺好', avatar='null', createTime=null, blog=Blog{id=70, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, comment=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@3ea31c03]}
+2021-12-09 08:59:18.628  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : redirect:/comments/70
+2021-12-09 08:59:18.628  INFO 3008 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:18.643  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 08:59:18.653  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 08:59:18.653  INFO 3008 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:40.265  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[70, {}]}
+2021-12-09 08:59:40.361  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog
+2021-12-09 08:59:40.361  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:41.435  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 08:59:41.445  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 08:59:41.445  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:41.730  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 08:59:41.738  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 08:59:41.738  INFO 3008 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:58.008  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.post', args=[Comment{id=null, nickname='小白', email='1483663612@qq.com', content='谢谢', avatar='null', createTime=null, blog=Blog{id=70, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, comment=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=71, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@3ea31c03]}
+2021-12-09 08:59:58.180  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : redirect:/comments/70
+2021-12-09 08:59:58.180  INFO 3008 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 08:59:58.199  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 08:59:58.205  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 08:59:58.205  INFO 3008 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 09:00:16.761  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.post', args=[Comment{id=null, nickname='小黑', email='1483663612@qq.com', content='还行', avatar='null', createTime=null, blog=Blog{id=70, title='null', content='null', firstPicture='null', flag='null', views=null, appreciation=false, shareStatement=false, comment=false, published=false, recommend=false, createTime=null, updateTime=null, type=null, tags=[], user=null, comments=[], tagIds='null', description='null'}, replyComments=[], parentComment=Comment{id=71, nickname='null', email='null', content='null', avatar='null', createTime=null, blog=null, replyComments=[], parentComment=null, adminComment=false}, adminComment=false}, org.apache.catalina.session.StandardSessionFacade@3ea31c03]}
+2021-12-09 09:00:16.914  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : redirect:/comments/70
+2021-12-09 09:00:16.914  INFO 3008 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 09:00:16.918  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[70, {}]}
+2021-12-09 09:00:16.928  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2021-12-09 09:00:16.928  INFO 3008 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 09:03:31.698  WARN 3008 --- [http-nio-8081-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2021-12-09 09:03:31.699 ERROR 3008 --- [http-nio-8081-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+2021-12-09 09:03:31.835 ERROR 3008 --- [http-nio-8081-exec-7] c.z.handler.ControllerExceptionHandler   : Request URL : http://localhost:8081/admin/types/8/delete ,Exception : {}
+
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.zgz.service.TypeServiceImpl$$EnhancerBySpringCGLIB$$30842b28.deleteType(<generated>)
+	at com.zgz.controller.admin.TypeController.delete(TypeController.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3615)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3875)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 60 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 81 common frames omitted
+
+2021-12-09 09:03:31.838  WARN 3008 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2021-12-09 12:13:08.701  INFO 10672 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Zgz with PID 10672 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 12:13:08.738  INFO 10672 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-12-09 12:13:17.843  WARN 10672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 12:13:18.936  INFO 10672 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 10.982 seconds (JVM running for 14.586)
+2021-12-09 12:13:33.767  INFO 15576 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Zgz with PID 15576 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-12-09 12:13:33.769  INFO 15576 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-12-09 12:13:36.960  WARN 15576 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-09 12:13:37.503  INFO 15576 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 4.155 seconds (JVM running for 5.439)
+2021-12-09 12:13:59.628  INFO 15576 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-12-09 12:14:00.261  WARN 15576 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 12:14:00.357  WARN 15576 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-12-09 12:14:00.461  INFO 15576 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-12-09 12:14:00.461  INFO 15576 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 12:14:01.542  INFO 15576 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-12-09 12:14:01.552  INFO 15576 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-12-09 12:14:01.552  INFO 15576 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-12-09 12:14:32.370  WARN 15576 --- [http-nio-8081-exec-6] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [346] milliseconds.
+2021-12-09 12:15:40.682  WARN 15576 --- [http-nio-8081-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1451, SQLState: 23000
+2021-12-09 12:15:40.682 ERROR 15576 --- [http-nio-8081-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+2021-12-09 12:15:40.755 ERROR 15576 --- [http-nio-8081-exec-10] c.z.handler.ControllerExceptionHandler   : Request URL : http://localhost:8081/admin/types/1/delete ,Exception : {}
+
+org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:276)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:566)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.zgz.service.TypeServiceImpl$$EnhancerBySpringCGLIB$$248984d8.deleteType(<generated>)
+	at com.zgz.controller.admin.TypeController.delete(TypeController.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:200)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:46)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3615)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3875)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:123)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562)
+	... 60 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`blog`.`t_blog`, CONSTRAINT `FK292449gwg5yf7ocdlmswv9w4j` FOREIGN KEY (`type_id`) REFERENCES `t_type` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1350)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	... 81 common frames omitted
+
+2021-12-09 12:15:40.756  WARN 15576 --- [http-nio-8081-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]

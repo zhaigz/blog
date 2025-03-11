@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    node: HTML
+  profiles:
+    active: pro
+  messages:
+    basename: i18n/messages
+#评论用户头像
+comment.avatar: /imgs/avatar.png

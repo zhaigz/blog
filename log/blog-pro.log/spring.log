@@ -1,0 +1,229 @@
+2025-03-07 16:45:26.786  INFO 29956 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.2 on LAPTOP-IST2TE6Q with PID 29956 (D:\WorkSpaces\javaWorkspace\blog\target\classes started by Horizon_zgz in D:\WorkSpaces\javaWorkspace\blog)
+2025-03-07 16:45:26.791  INFO 29956 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2025-03-07 16:45:29.305  WARN 29956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 16:45:29.917  WARN 29956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-07 16:45:29.959  INFO 29956 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 3.473 seconds (JVM running for 4.252)
+2025-03-07 16:52:41.329  INFO 5740 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.2 on LAPTOP-IST2TE6Q with PID 5740 (D:\WorkSpaces\javaWorkspace\blog\target\classes started by Horizon_zgz in D:\WorkSpaces\javaWorkspace\blog)
+2025-03-07 16:52:41.331  INFO 5740 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2025-03-07 16:52:43.943  WARN 5740 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 16:52:44.469  WARN 5740 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-07 16:52:44.493  INFO 5740 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 3.44 seconds (JVM running for 4.103)
+2025-03-07 16:54:08.332  INFO 2908 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.2 on LAPTOP-IST2TE6Q with PID 2908 (D:\WorkSpaces\javaWorkspace\blog\target\classes started by Horizon_zgz in D:\WorkSpaces\javaWorkspace\blog)
+2025-03-07 16:54:08.335 DEBUG 2908 --- [restartedMain] com.zgz.BlogApplication                  : Running with Spring Boot v2.5.4, Spring v5.3.9
+2025-03-07 16:54:08.335  INFO 2908 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2025-03-07 16:54:08.361  INFO 2908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 16:54:08.361  INFO 2908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 16:54:08.757  INFO 2908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 16:54:08.813  INFO 2908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2025-03-07 16:54:09.307  INFO 2908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-03-07 16:54:09.317  INFO 2908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-07 16:54:09.317  INFO 2908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-07 16:54:09.417  INFO 2908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-07 16:54:09.417  INFO 2908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1055 ms
+2025-03-07 16:54:09.557  INFO 2908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 16:54:09.583  INFO 2908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-03-07 16:54:09.639  INFO 2908 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-03-07 16:54:09.692  INFO 2908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-07 16:54:09.836  INFO 2908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-07 16:54:09.844  INFO 2908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-03-07 16:54:10.366  INFO 2908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-07 16:54:10.384  INFO 2908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 16:54:11.003  WARN 2908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 16:54:11.163  INFO 2908 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-07 16:54:11.478  WARN 2908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-07 16:54:11.497  INFO 2908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2025-03-07 16:54:11.504  INFO 2908 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 3.446 seconds (JVM running for 4.139)
+2025-03-07 16:55:10.866  INFO 2908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 16:55:10.869  INFO 2908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-07 16:55:10.877  INFO 2908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-07 16:55:13.076  INFO 2940 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.2 on LAPTOP-IST2TE6Q with PID 2940 (D:\WorkSpaces\javaWorkspace\blog\target\classes started by Horizon_zgz in D:\WorkSpaces\javaWorkspace\blog)
+2025-03-07 16:55:13.079 DEBUG 2940 --- [restartedMain] com.zgz.BlogApplication                  : Running with Spring Boot v2.5.4, Spring v5.3.9
+2025-03-07 16:55:13.079  INFO 2940 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2025-03-07 16:55:13.105  INFO 2940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-07 16:55:13.106  INFO 2940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-07 16:55:13.474  INFO 2940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-07 16:55:13.524  INFO 2940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2025-03-07 16:55:13.938  INFO 2940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2025-03-07 16:55:13.947  INFO 2940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-07 16:55:13.947  INFO 2940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-07 16:55:14.015  INFO 2940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-07 16:55:14.015  INFO 2940 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 909 ms
+2025-03-07 16:55:14.163  INFO 2940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-07 16:55:14.208  INFO 2940 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-03-07 16:55:14.310  INFO 2940 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-03-07 16:55:14.361  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-07 16:55:14.541  INFO 2940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-07 16:55:14.556  INFO 2940 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-03-07 16:55:15.126  INFO 2940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-03-07 16:55:15.133  INFO 2940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 16:55:15.629  WARN 2940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-07 16:55:15.781  INFO 2940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-03-07 16:55:16.056  WARN 2940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-03-07 16:55:16.075  INFO 2940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2025-03-07 16:55:16.081  INFO 2940 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 3.303 seconds (JVM running for 4.023)
+2025-03-07 16:55:27.487  INFO 2940 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-07 16:55:27.488  INFO 2940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-07 16:55:27.489  INFO 2940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-07 16:55:27.521  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:55:27.660  WARN 2940 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2025-03-07 16:55:27.677  WARN 2940 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2025-03-07 16:55:27.690  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2025-03-07 16:55:27.691  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:28.363  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:28.375  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:28.375  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:32.006  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:55:32.041  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : index
+2025-03-07 16:55:32.042  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:32.265  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:32.273  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:32.273  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:34.023  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[53, {}]}
+2025-03-07 16:55:34.188  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : blog
+2025-03-07 16:55:34.189  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:34.598  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:34.606  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:34.606  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:34.674  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[53, {}]}
+2025-03-07 16:55:34.693  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2025-03-07 16:55:34.693  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:43.049  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.AboutShowController.about', args=[]}
+2025-03-07 16:55:43.053  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : about
+2025-03-07 16:55:43.053  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:43.255  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:43.262  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:43.262  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:50.504  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:55:50.523  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : index
+2025-03-07 16:55:50.524  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:50.769  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:50.777  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:50.777  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:51.712  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[53, {}]}
+2025-03-07 16:55:51.728  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : blog
+2025-03-07 16:55:51.728  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:52.083  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:52.090  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:52.090  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:52.169  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[53, {}]}
+2025-03-07 16:55:52.171  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2025-03-07 16:55:52.172  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:53.799  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:55:53.816  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : types
+2025-03-07 16:55:53.816  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:54.026  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:54.032  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:54.032  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:55.756  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:55:55.775  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2025-03-07 16:55:55.776  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:55.946  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:55.954  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:55.954  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:56.775  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[53, {}]}
+2025-03-07 16:55:56.790  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : blog
+2025-03-07 16:55:56.791  INFO 2940 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:57.196  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:55:57.203  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:55:57.203  INFO 2940 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:55:57.245  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[53, {}]}
+2025-03-07 16:55:57.247  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2025-03-07 16:55:57.247  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:03.869  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.AboutShowController.about', args=[]}
+2025-03-07 16:56:03.869  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : about
+2025-03-07 16:56:03.869  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:04.054  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:56:04.061  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:56:04.061  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:04.462  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2025-03-07 16:56:04.489  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : archives
+2025-03-07 16:56:04.490  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:04.668  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:56:04.674  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:56:04.674  INFO 2940 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:06.362  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[53, {}]}
+2025-03-07 16:56:06.374  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : blog
+2025-03-07 16:56:06.375  INFO 2940 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:06.821  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:56:06.828  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:56:06.828  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:56:06.890  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/comments/53', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.CommentController.comments', args=[53, {}]}
+2025-03-07 16:56:06.892  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : blog :: commentList
+2025-03-07 16:56:06.892  INFO 2940 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:57:25.781 ERROR 2940 --- [http-nio-8081-exec-7] c.z.handler.ControllerExceptionHandler   : Request URL : http://localhost:8081/admin/login ,Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:253)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:438)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:379)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1258)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2025-03-07 16:57:25.783  WARN 2940 --- [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2025-03-07 16:58:22.470  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:58:22.476  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:58:22.476  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:25.800  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:58:25.819  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : index
+2025-03-07 16:58:25.820  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:26.001  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:58:26.007  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:58:26.007  INFO 2940 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:47.424  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:58:47.437  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : Result : types
+2025-03-07 16:58:47.437  INFO 2940 --- [http-nio-8081-exec-2] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:47.695  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:58:47.699  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:58:47.700  INFO 2940 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:48.870  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2025-03-07 16:58:48.896  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : tags
+2025-03-07 16:58:48.896  INFO 2940 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 16:58:49.116  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2025-03-07 16:58:49.121  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2025-03-07 16:58:49.122  INFO 2940 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2025-03-07 17:01:15.776  WARN 2940 --- [http-nio-8081-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [552] milliseconds.
+2025-03-07 17:01:43.704  INFO 2940 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-07 17:01:43.708  INFO 2940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-07 17:01:43.725  INFO 2940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

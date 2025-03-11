@@ -1,0 +1,157 @@
+2021-09-05 19:11:26.967  INFO 10172 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on Mr_Zhai with PID 10172 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-05 19:11:26.971 DEBUG 10172 --- [main] com.zgz.BlogApplicationTests             : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-05 19:11:26.972  INFO 10172 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: dev
+2021-09-05 19:11:29.127  INFO 10172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-05 19:11:29.242  INFO 10172 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+2021-09-05 19:11:30.438  INFO 10172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-05 19:11:30.562  INFO 10172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-05 19:11:30.905  INFO 10172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-05 19:11:31.305  INFO 10172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-05 19:11:32.292  INFO 10172 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-05 19:11:32.326  INFO 10172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-05 19:11:33.914  INFO 10172 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-05 19:11:33.924  INFO 10172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 19:11:35.494  WARN 10172 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-05 19:11:36.152  INFO 10172 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-05 19:11:36.599  INFO 10172 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 10.507 seconds (JVM running for 12.535)
+2021-09-05 19:11:36.851  INFO 10172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 19:11:36.864  INFO 10172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-05 19:11:36.878  INFO 10172 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-09-05 19:11:52.708  INFO 16696 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on Mr_Zhai with PID 16696 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-09-05 19:11:52.710 DEBUG 16696 --- [restartedMain] com.zgz.BlogApplication                  : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-05 19:11:52.710  INFO 16696 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: dev
+2021-09-05 19:11:52.802  INFO 16696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-05 19:11:52.802  INFO 16696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-05 19:11:53.431  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-05 19:11:53.492  INFO 16696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 4 JPA repository interfaces.
+2021-09-05 19:11:54.325  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-05 19:11:54.345  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-05 19:11:54.346  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-05 19:11:54.398  INFO 16696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-05 19:11:54.398  INFO 16696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1595 ms
+2021-09-05 19:11:54.508  INFO 16696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-05 19:11:54.535  INFO 16696 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-05 19:11:54.612  INFO 16696 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-05 19:11:54.677  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-05 19:11:54.869  INFO 16696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-05 19:11:54.890  INFO 16696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-05 19:11:55.511  INFO 16696 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-05 19:11:55.518  INFO 16696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-05 19:11:56.205  WARN 16696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-05 19:11:56.408  INFO 16696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-09-05 19:11:56.725  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-05 19:11:56.759  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-05 19:11:56.767  INFO 16696 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 4.491 seconds (JVM running for 7.92)
+2021-09-05 19:12:09.250  INFO 16696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-05 19:12:09.251  INFO 16696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-05 19:12:09.252  INFO 16696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-05 19:12:09.280  INFO 16696 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-05 19:12:09.362  WARN 16696 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-09-05 19:12:09.371  WARN 16696 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-09-05 19:12:09.378  INFO 16696 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-09-05 19:12:09.378  INFO 16696 --- [http-nio-8080-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-05 19:12:17.061  INFO 16696 --- [http-nio-8080-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/blog/28', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.blog', args=[28, {}]}
+2021-09-05 19:12:17.073  INFO 16696 --- [http-nio-8080-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-05 19:12:17.075 ERROR 16696 --- [http-nio-8080-exec-5] c.z.handler.ControllerExceptionHandler   : Request URL : http://localhost:8080/blog/28 ,Exception : {}
+
+org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/gfm/tables/TablesExtension
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1079)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoClassDefFoundError: org/commonmark/ext/gfm/tables/TablesExtension
+	at com.zgz.utils.MarkdownUtils.markdownToHtmlExtensions(MarkdownUtils.java:48)
+	at com.zgz.service.BlogServiceImpl.getAndConvert(BlogServiceImpl.java:54)
+	at com.zgz.service.BlogServiceImpl$$FastClassBySpringCGLIB$$fdfd912c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.zgz.service.BlogServiceImpl$$EnhancerBySpringCGLIB$$689b4832.getAndConvert(<generated>)
+	at com.zgz.controller.IndexController.blog(IndexController.java:58)
+	at com.zgz.controller.IndexController$$FastClassBySpringCGLIB$$788154a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.zgz.controller.IndexController$$EnhancerBySpringCGLIB$$c962fc9d.blog(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.commonmark.ext.gfm.tables.TablesExtension
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 76 common frames omitted
+
+2021-09-05 19:12:17.076  WARN 16696 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/commonmark/ext/gfm/tables/TablesExtension]
+2021-09-05 19:12:28.634  INFO 16696 --- [http-nio-8080-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-05 19:12:28.656  INFO 16696 --- [http-nio-8080-exec-8] com.zgz.aspect.LogAspect                 : Result : tags
+2021-09-05 19:12:28.657  INFO 16696 --- [http-nio-8080-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-05 19:12:31.211  INFO 16696 --- [http-nio-8080-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-05 19:12:31.227  INFO 16696 --- [http-nio-8080-exec-6] com.zgz.aspect.LogAspect                 : Result : index
+2021-09-05 19:12:31.227  INFO 16696 --- [http-nio-8080-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-05 19:12:36.821  INFO 16696 --- [http-nio-8080-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8080/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-09-05 19:12:36.830  INFO 16696 --- [http-nio-8080-exec-9] com.zgz.aspect.LogAspect                 : Result : tags
+2021-09-05 19:12:36.830  INFO 16696 --- [http-nio-8080-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-09-05 19:12:51.146  WARN 16696 --- [http-nio-8080-exec-10] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [183] milliseconds.

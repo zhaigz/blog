@@ -1,0 +1,76 @@
+2021-11-25 22:31:59.474  INFO 17748 --- [main] com.zgz.BlogApplicationTests             : Starting BlogApplicationTests using Java 11.0.10 on �ڻҰ׸� with PID 17748 (started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-11-25 22:31:59.479  INFO 17748 --- [main] com.zgz.BlogApplicationTests             : The following profiles are active: pro
+2021-11-25 22:32:09.420  WARN 17748 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-25 22:32:12.299  INFO 17748 --- [main] com.zgz.BlogApplicationTests             : Started BlogApplicationTests in 13.846 seconds (JVM running for 18.454)
+2021-11-25 22:32:36.336  INFO 7588 --- [restartedMain] com.zgz.BlogApplication                  : Starting BlogApplication using Java 11.0.10 on 黑灰白格 with PID 7588 (D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog\target\classes started by 86152 in D:\Studydata\workspace\ideaWorkSpace\JavaStudy\code\springboot-projects\blog)
+2021-11-25 22:32:36.338  INFO 7588 --- [restartedMain] com.zgz.BlogApplication                  : The following profiles are active: pro
+2021-11-25 22:32:40.005  WARN 7588 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-25 22:32:40.775  INFO 7588 --- [restartedMain] com.zgz.BlogApplication                  : Started BlogApplication in 5.051 seconds (JVM running for 8.822)
+2021-11-25 22:33:14.019  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:33:15.371  WARN 7588 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-11-25 22:33:15.484  WARN 7588 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-11-25 22:33:15.539  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : index
+2021-11-25 22:33:15.539  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:16.414  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:33:16.422  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:33:16.422  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:25.008  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:33:25.023  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : types
+2021-11-25 22:33:25.023  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:25.368  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:33:25.379  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:33:25.379  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:28.001  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:33:28.026  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : tags
+2021-11-25 22:33:28.026  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:28.497  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:33:28.504  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:33:28.504  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:29.326  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2021-11-25 22:33:29.399  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : Result : archives
+2021-11-25 22:33:29.399  INFO 7588 --- [http-nio-8081-exec-4] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:29.742  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:33:29.747  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:33:29.748  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:30.487  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:33:30.501  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : index
+2021-11-25 22:33:30.501  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:33:30.807  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:33:30.815  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:33:30.816  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:35:52.158  INFO 7588 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:35:52.175  INFO 7588 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : Result : index
+2021-11-25 22:35:52.176  INFO 7588 --- [http-nio-8081-exec-9] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:35:52.672  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:35:52.678  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:35:52.678  INFO 7588 --- [http-nio-8081-exec-8] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:35:59.922  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/about', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.AboutShowController.about', args=[]}
+2021-11-25 22:35:59.926  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : Result : about
+2021-11-25 22:35:59.927  INFO 7588 --- [http-nio-8081-exec-10] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:00.288  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:36:00.295  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:36:00.295  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:11.490  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.ArchivesShowController.archives', args=[{}]}
+2021-11-25 22:36:11.505  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : archives
+2021-11-25 22:36:11.505  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:11.828  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:36:11.835  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:36:11.835  INFO 7588 --- [http-nio-8081-exec-1] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:13.278  INFO 7588 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TagShowController.tags', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:36:13.286  INFO 7588 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : Result : tags
+2021-11-25 22:36:13.287  INFO 7588 --- [http-nio-8081-exec-5] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:13.598  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:36:13.603  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:36:13.603  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:17.060  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:36:17.067  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : types
+2021-11-25 22:36:17.067  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:17.371  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:36:17.376  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:36:17.377  INFO 7588 --- [http-nio-8081-exec-6] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:19.879  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: id: DESC], {}]}
+2021-11-25 22:36:19.891  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : Result : index
+2021-11-25 22:36:19.892  INFO 7588 --- [http-nio-8081-exec-3] com.zgz.aspect.LogAspect                 : --------doAfter---------
+2021-11-25 22:36:20.198  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zgz.controller.IndexController.newBlogs', args=[{}]}
+2021-11-25 22:36:20.203  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : Result : _fragments :: newBlogList
+2021-11-25 22:36:20.203  INFO 7588 --- [http-nio-8081-exec-7] com.zgz.aspect.LogAspect                 : --------doAfter---------
